@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60)), url('C:\Users\sahan\Project\frontend\frontend\images\WhatsApp Image 2024-05-12 at 22.13.05_01dcb8d5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.container1 {
+    height: 80px;
+}
+
+.h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px; /* Removed duplicate property */
+    color: #eb7620;
+}
